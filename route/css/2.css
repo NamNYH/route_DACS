@@ -1,0 +1,107 @@
+.routeInfo table tr td {
+    vertical-align: top;
+}
+
+.routeInfo table .cms-col-left-align {
+    white-space: nowrap;
+}
+
+.routeInfo table .label {
+    font-weight: bold;
+}
+
+.routeInfo table ul {
+    margin: 0px;
+}
+
+    .routeInfo table ul li {
+        color: inherit;
+        margin: 0px;
+        padding-left: 20px;
+        list-style: circle inside;
+    }
+
+.routeInfo table .operationInfo {
+}
+
+.routeInfo table .agencies {
+}
+
+.timetableInfo {
+    overflow: hidden;
+}
+
+    .timetableInfo.ui-accordion .ui-accordion-header {
+        white-space: nowrap;
+    }
+
+    .timetableInfo.ui-accordion .ui-accordion-content {
+        height: 400px;
+        overflow-y: hidden;
+    }
+
+        .timetableInfo.ui-accordion .ui-accordion-content > div {
+            display: inline-block;
+            width: 45%;
+            height: 400px;
+            overflow-y: auto;
+        }
+
+            .timetableInfo.ui-accordion .ui-accordion-content > div:first-child table tr:hover {
+                background-color: initial;
+                color: initial;
+            }
+
+            .timetableInfo.ui-accordion .ui-accordion-content > div:last-child {
+                float: right;
+                border: solid 1px #dadada;
+            }
+
+    .timetableInfo table {
+        width: 100%;
+        line-height: 1.2;
+        color: #121212 !important;
+    }
+
+    .timetableInfo .time {
+        padding-left: 5px;
+        vertical-align: middle;
+    }
+
+    .timetableInfo .orderNo {
+        width: 30px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+        .timetableInfo .orderNo div {
+            min-width: 20px;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 50%;
+            margin: 3px;
+            vertical-align: middle;
+            text-align: center;
+            color: #fff;
+            background-color: #34B67A;
+        }
+
+    .timetableInfo tr:hover {
+        color: #fff;
+        background-color: #34B67A;
+    }
+
+        .timetableInfo tr:hover .orderNo div {
+            color: #34B67A;
+            background-color: #fff;
+        }
+
+    .timetableInfo .ui-accordion-header .textRight {
+        float: right;
+    }
+
+@media handheld, only screen and (max-width: 649px), only screen and (max-device-width: 649px) {
+    .timetableInfo .ui-accordion-header .textRight {
+        display: none;
+    }
+}

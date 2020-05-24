@@ -1,0 +1,85 @@
+.ui-widget-content {
+	border: 1px solid #dadada;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-bottom {
+	border-radius: initial;
+	-webkit-border-radius: initial;
+	-moz-border-radius: initial;
+}
+
+.ui-widget {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+*html .ui-autocomplete {
+	height: 200px;
+}
+
+#tabs.ui-tabs .ui-tabs-panel {
+	padding: 10px;
+}
+
+/*-----------popup------------------*/
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.dnnFormPopup.ui-draggable.ui-resizable {
+	z-index: 9999 !important;
+	padding: 10px;
+}
+
+.dnnFormPopup .dnnModalCtrl .ui-dialog-titlebar-close {
+	top: 0px;
+	right: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+}
+
+.ui-dialog {
+	overflow: visible;
+	padding: initial;
+}
+
+	.ui-dialog .ui-dialog-content {
+		padding: 0px;
+	}
+
+div.dnnDialog.ui-dialog-content.ui-widget-content {
+	padding: 10px;
+	padding-bottom: 0px;
+}
+/*-----------popup------------------*/
+
+/*-----------ui-accordion-----------*/
+.ui-accordion .ui-accordion-content {
+	padding: 5px !important;
+	padding-left: 10px;
+}
+
+.ui-accordion .ui-accordion-header {
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+	.ui-accordion .ui-accordion-header:first-child {
+		margin: 0px;
+	}
+
+.dnnModalCtrl > .ui-state-default .ui-icon,
+.dnnModalCtrl > .ui-widget-header .ui-icon,
+.dnnModalCtrl > .ui-icon {
+	background-image: none;
+}
+/*-----------ui-accordion-----------*/
